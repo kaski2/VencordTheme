@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "UDDigi";
+  src: local("UD Digi Kyokasho N-R");
+  unicode-range:
+      U+3000-303F,
+      U+3040-309F,
+      U+30A0-30FF,
+      U+4E00-9FFF,
+      U+FF66-FF9D;
+  size-adjust: 115%;
+}
+
+/* Custom Japanese font */
+* {
+  font-family:  "UDDigi", "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Replaces the codeblock font with JBmono */
+code,
+pre,
+[class*="codeBlock-"],
+[class*="syntax-"],
+[class*="codeBlock-"] *,
+[class*="syntax-"] * {
+    font-family: "JetBrains Mono", monospace !important;
+}
